@@ -13,7 +13,7 @@ class Application(tk.Tk):
         canvas.configure(background='red')
         canvas.pack()
 
-        canvas.create_text(600, 250, text="エラーコード 0x800F081F：Windows更新プログラムのインストール中に問題が発生しました。", font=("Arial", 60), fill="blue")
+        canvas.create_text(800, 250, text="エラーコード 0x800F081F：Windows更新プログラムのインストール中に問題が発生しました。", font=("Arial", 20), fill="blue")
 if __name__ == "__main__":
     application = Application()
     application.mainloop()
